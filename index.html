@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width = device-width,initial-scale = 1.0">
+<meta http-equiv = "X-UA-compatible" content = "ie=edge">
+<link rel = "stylesheet" href = "index.css">
+<title> Framework </title>
+</head>
+
+<body>
+
+<label style = "float: right; margin-right: 430px; margin-top: 140px; margin-bottom: 23px;" >
+<p class = "text">Chill and choose your font style:)</p>
+<p> by default - Macondo </p>
+<audio controls src = "audios/audio1.mp3"> <!-- control the sound-->
+   <a href = "audios/audio1.mp3">audio</a> <!-- it will be displayed if browser doesnt support such a format -->
+</audio>
+</label>
+<input  id = "input" placeholder= "Macondo"> <!-- we WILL NOT have anything inside at first//inline-block -->
+<!-- option + shift + arrow -->
+<div>
+<select id = "select" onchange="newfont()"> <!-- onchange only here-->
+  <option></option>
+  <option id = "first" value = "Sans-Serif"> Sans-Serif <!-- just what will be shown--> </option> <!-- onchange - change value-->
+  <option id = "second" value = "Something"> Monospace </option> <!-- value of option! -->
+  <option id  = "third" value ="Believe"> Fantasy </option>
+  <option id = "forth" value = "Basic font"> Basic font </option>
+</select>
+
+</div>
+</body>
+
+
+
+
+
+<script src = "index.js"></script>
+</html>
+
+

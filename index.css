@@ -1,0 +1,44 @@
+
+#input{
+    padding: 23px;
+    margin-left: 254px;
+    margin-top: 55px;
+    width: 800px;
+    background-color: #CFC5B6;
+    opacity: 0.8;
+    caret-color: white;
+    font-size: 13px;
+    border: #CFC5B6;
+    font-family:  'Macondo', cursive; /* will change it too*/
+    
+    
+}
+
+.image{
+    float: right;
+    width: fit-content;
+    height: 600px;
+    margin-right: 323px;
+    margin-top: 54px;
+    border: solid 5px black;
+}
+
+.text{
+    font-size: 50px;
+    color: #CFC5B6;
+}
+
+.btn{
+    padding: 24px;
+    margin: 40px;
+    background-color: #CFC5B6;
+    opacity: 0.4;
+    border-radius: 23px;
+}
+
+
+#select{
+    padding: 13px;
+    margin-left: 623px;
+    margin-top: 10px;
+}
